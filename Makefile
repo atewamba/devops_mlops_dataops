@@ -10,6 +10,7 @@ format:
 
 lint:
 	pylint --disable=R,C hello.py
+	pylint --disable=R,C fastapi_test.py
 
 all: install lint test format
 
