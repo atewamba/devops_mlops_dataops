@@ -22,4 +22,4 @@ def read_item(item_id: int, q: Union[str, None] = None):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=8080)
+    uvicorn.run(app, port=8080, host="127.0.0.1")
